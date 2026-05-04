@@ -113,7 +113,7 @@ class QuoteApp:
             print("GIT: Рекомендуется выполнить 'git commit -m 'Обновление истории/базы цитат''")
             print("GIT: Рекомендуется выполнить 'git push'")
 def generate_quote(self):
-        """Генерация случайной цитаты"""
+        "Генерация случайной цитаты"
         if not self.quotes:
             messagebox.showwarning("Нет цитат", "База цитат пуста. Добавьте свои цитаты.")
             return
